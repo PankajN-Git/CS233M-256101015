@@ -19,7 +19,7 @@ To run the simulation and view the results, follow these steps in your terminal:
   
 4.  **Visualize** the waveforms using GTKWave.
     ```bash
-    gtkwave detector_1101.vcd
+    gtkwave seq_detect_mealy.vcd
 
 
 
