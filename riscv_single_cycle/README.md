@@ -1,6 +1,6 @@
 **This document details the modifications RISC-V to implement the RVX-10 custom instruction set extension.**
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
 ## 1. **Documentation**
 
@@ -82,8 +82,8 @@
 - The testbench remains unchanged except for enhanced waveform support.
 - To compile and run:
     ```bash
-    iverilog -g2012 -o processor.out riscvsingle_new.sv
-    vvp processor.out
+    iverilog -g2012 -o cpu_tb riscvsingle_new.sv
+    vvp cpu_tb.out
     ```
 - On success, the simulation prints `Simulation succeeded` when 25 is written to memory address 100.
 
