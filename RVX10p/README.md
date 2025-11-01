@@ -64,7 +64,7 @@ These files include design rationale, test procedures, waveform screenshots, and
   - Forwarding signals: forwardA, forwardB
   - Hazard signals: stall, pc_write, flush
   - ALU results, register file read data, memory rdata/wdata, PC, instruction fields
-- Use GTKWave cursors to compare values at cycle boundaries and to inspect forwarding/stall cycles.
+- Use GTKWave cursors to compare values at cycle boundaries and to inspect forwarding/stall cycles..
 
 ---
 
